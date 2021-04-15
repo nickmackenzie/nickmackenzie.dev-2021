@@ -1,18 +1,12 @@
-import React from "react"
-
+import React from "react";
+import NavBar from "../components/NavBar";
+import Section from "../components/Section";
 export default function Home() {
-  return (
-  <div>
-    <nav>
-    <div className="logo">NM</div>
-    <div class="list-wrapper">      <ol>
-        <li>Home</li>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ol></div>
+  const about = <div>Hello</div>;
 
-    </nav>
-  </div>
-  )
+  return (
+    <div>
+      <NavBar></NavBar>
+    </div>
+  );
 }
